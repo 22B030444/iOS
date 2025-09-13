@@ -16,7 +16,7 @@ let favoriteColor: String = "green 💚 "
 let isHobbyCreative: Bool = true
 let statusOfCreative: String = isHobbyCreative ? "creative 👩🏻‍🎨 " : " not creative"
 let futureGoals: String = "become a  sucssesful software developer 👩‍💻 "
-let lifeStory: String = "My name is \(firstName) \(lastName). I am \(age) years old, and I was born in \(birthYear). I am currently \(statusOfStudent). I am \(height) meters tall and I weigh \(weight) kilograms. I have \(numberOfSiblings) siblings. My favorite hobby is \(hobby), and my favorite book is \(favoriteBook). I think my hobby is \(statusOfCreative). I have \(nuberOfHObbies) hobbies in total, and my favorite number is \(favoriteNumber). My favorite color is \(favoriteColor). I hope to \(futureGoals)."
+let lifeStory: String = "My name is \(firstName) \(lastName). I am \(age) years old, and I was born in \(birthYear).\n I am currently \(statusOfStudent). I am \(height) meters tall and I weigh \(weight) kilograms. I have \(numberOfSiblings) siblings.\n My favorite hobby is \(hobby), and my favorite book is \(favoriteBook). I think my hobby is \(statusOfCreative).\n I have \(nuberOfHObbies) hobbies in total, and my favorite number is \(favoriteNumber). My favorite color is \(favoriteColor).\n I hope to \(futureGoals)."
 
 print(lifeStory)
 
