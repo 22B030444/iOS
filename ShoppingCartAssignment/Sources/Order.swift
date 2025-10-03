@@ -1,0 +1,31 @@
+//
+//  Order.swift
+//  ShoppingCartAssignment
+//
+//  Created by Zhasmin Suleimenova on 02.10.2025.
+//
+import Foundation
+
+struct Order {
+    let orderId: String
+    let items: [CartItem]
+    let subtotal: Double
+    let discountAmount: Double
+    let total: Double
+    let timestamp: Date
+    let shippingAddress: Address
+    // Создаёт неизменяемый снимок из текущей корзины
+    init(from cart: ShoppingCart, shippingAddress: Address) {
+        self.orderId = UUID().uuidString
+        self.items = cart.items
+        self.subtotal = cart.subtotal
+        self.discountAmount = cart.discountAmount
+        self.total = cart.total
+        self.timestamp = Date()
+        self.shippingAddress = shippingAddress
+    }
+    // Общее количество единиц товара в заказе
+    var itemCount: Int {
+        items.reduce(0) { $0 + $1.quantity }
+    }
+}
