@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6319F0A82EBB3EF500FF1077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6319F0892EBB3EF400FF1077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6319F0902EBB3EF400FF1077;
+			remoteInfo = Zhasmin_MusicPlayer;
+		};
+		6319F0B22EBB3EF500FF1077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6319F0892EBB3EF400FF1077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6319F0902EBB3EF400FF1077;
+			remoteInfo = Zhasmin_MusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6319F0912EBB3EF400FF1077 /* Zhasmin_MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhasmin_MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6319F0A72EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zhasmin_MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6319F0B12EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zhasmin_MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6319F0B92EBB3EF500FF1077 /* Exceptions for "Zhasmin_MusicPlayer" folder in "Zhasmin_MusicPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6319F0902EBB3EF400FF1077 /* Zhasmin_MusicPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6319F0932EBB3EF400FF1077 /* Zhasmin_MusicPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6319F0B92EBB3EF500FF1077 /* Exceptions for "Zhasmin_MusicPlayer" folder in "Zhasmin_MusicPlayer" target */,
+			);
+			path = Zhasmin_MusicPlayer;
+			sourceTree = "<group>";
+		};
+		6319F0AA2EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zhasmin_MusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		6319F0B42EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zhasmin_MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6319F08E2EBB3EF400FF1077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0A42EBB3EF500FF1077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0AE2EBB3EF500FF1077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6319F0882EBB3EF400FF1077 = {
+			isa = PBXGroup;
+			children = (
+				6319F0932EBB3EF400FF1077 /* Zhasmin_MusicPlayer */,
+				6319F0AA2EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests */,
+				6319F0B42EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests */,
+				6319F0922EBB3EF400FF1077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6319F0922EBB3EF400FF1077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6319F0912EBB3EF400FF1077 /* Zhasmin_MusicPlayer.app */,
+				6319F0A72EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests.xctest */,
+				6319F0B12EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6319F0902EBB3EF400FF1077 /* Zhasmin_MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6319F0BA2EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayer" */;
+			buildPhases = (
+				6319F08D2EBB3EF400FF1077 /* Sources */,
+				6319F08E2EBB3EF400FF1077 /* Frameworks */,
+				6319F08F2EBB3EF400FF1077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6319F0932EBB3EF400FF1077 /* Zhasmin_MusicPlayer */,
+			);
+			name = Zhasmin_MusicPlayer;
+			packageProductDependencies = (
+			);
+			productName = Zhasmin_MusicPlayer;
+			productReference = 6319F0912EBB3EF400FF1077 /* Zhasmin_MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6319F0A62EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6319F0BF2EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayerTests" */;
+			buildPhases = (
+				6319F0A32EBB3EF500FF1077 /* Sources */,
+				6319F0A42EBB3EF500FF1077 /* Frameworks */,
+				6319F0A52EBB3EF500FF1077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6319F0A92EBB3EF500FF1077 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6319F0AA2EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests */,
+			);
+			name = Zhasmin_MusicPlayerTests;
+			packageProductDependencies = (
+			);
+			productName = Zhasmin_MusicPlayerTests;
+			productReference = 6319F0A72EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6319F0B02EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6319F0C22EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayerUITests" */;
+			buildPhases = (
+				6319F0AD2EBB3EF500FF1077 /* Sources */,
+				6319F0AE2EBB3EF500FF1077 /* Frameworks */,
+				6319F0AF2EBB3EF500FF1077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6319F0B32EBB3EF500FF1077 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6319F0B42EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests */,
+			);
+			name = Zhasmin_MusicPlayerUITests;
+			packageProductDependencies = (
+			);
+			productName = Zhasmin_MusicPlayerUITests;
+			productReference = 6319F0B12EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6319F0892EBB3EF400FF1077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6319F0902EBB3EF400FF1077 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					6319F0A62EBB3EF500FF1077 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6319F0902EBB3EF400FF1077;
+					};
+					6319F0B02EBB3EF500FF1077 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6319F0902EBB3EF400FF1077;
+					};
+				};
+			};
+			buildConfigurationList = 6319F08C2EBB3EF400FF1077 /* Build configuration list for PBXProject "Zhasmin_MusicPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6319F0882EBB3EF400FF1077;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6319F0922EBB3EF400FF1077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6319F0902EBB3EF400FF1077 /* Zhasmin_MusicPlayer */,
+				6319F0A62EBB3EF500FF1077 /* Zhasmin_MusicPlayerTests */,
+				6319F0B02EBB3EF500FF1077 /* Zhasmin_MusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6319F08F2EBB3EF400FF1077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0A52EBB3EF500FF1077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0AF2EBB3EF500FF1077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6319F08D2EBB3EF400FF1077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0A32EBB3EF500FF1077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319F0AD2EBB3EF500FF1077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6319F0A92EBB3EF500FF1077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6319F0902EBB3EF400FF1077 /* Zhasmin_MusicPlayer */;
+			targetProxy = 6319F0A82EBB3EF500FF1077 /* PBXContainerItemProxy */;
+		};
+		6319F0B32EBB3EF500FF1077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6319F0902EBB3EF400FF1077 /* Zhasmin_MusicPlayer */;
+			targetProxy = 6319F0B22EBB3EF500FF1077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6319F0BB2EBB3EF500FF1077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zhasmin_MusicPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6319F0BC2EBB3EF500FF1077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zhasmin_MusicPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6319F0BD2EBB3EF500FF1077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6319F0BE2EBB3EF500FF1077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6319F0C02EBB3EF500FF1077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhasmin_MusicPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zhasmin_MusicPlayer";
+			};
+			name = Debug;
+		};
+		6319F0C12EBB3EF500FF1077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhasmin_MusicPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zhasmin_MusicPlayer";
+			};
+			name = Release;
+		};
+		6319F0C32EBB3EF500FF1077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zhasmin_MusicPlayer;
+			};
+			name = Debug;
+		};
+		6319F0C42EBB3EF500FF1077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhasmin.Zhasmin-MusicPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zhasmin_MusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6319F08C2EBB3EF400FF1077 /* Build configuration list for PBXProject "Zhasmin_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F0BD2EBB3EF500FF1077 /* Debug */,
+				6319F0BE2EBB3EF500FF1077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6319F0BA2EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F0BB2EBB3EF500FF1077 /* Debug */,
+				6319F0BC2EBB3EF500FF1077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6319F0BF2EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F0C02EBB3EF500FF1077 /* Debug */,
+				6319F0C12EBB3EF500FF1077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6319F0C22EBB3EF500FF1077 /* Build configuration list for PBXNativeTarget "Zhasmin_MusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319F0C32EBB3EF500FF1077 /* Debug */,
+				6319F0C42EBB3EF500FF1077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6319F0892EBB3EF400FF1077 /* Project object */;
+}
