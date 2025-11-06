@@ -12,4 +12,5 @@ struct Track {
     let artist: String
     let coverImageName: String
     let audioFileName: String
+    let duration: Int
 }
