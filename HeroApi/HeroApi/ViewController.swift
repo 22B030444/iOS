@@ -41,27 +41,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        service.delegate = self
         rollButton.layer.cornerRadius = 15
         rollButton.clipsToBounds = true
+        
+        if let savedHero = HeroStorageManager.loadHero() {
+            configureHero(with: savedHero)
+        }
         // Do any additional setup after loading the view.
     }
+    
     @IBAction private func rollTap(_ sender: Any) {
         rollButton.isEnabled = false
-        
-        let randomId = Int.random(in: 1...563)
-        
-        Task { @MainActor in
-            do {
-                let model = try await service.fetchHero(by: randomId)
-                configureHero(with: model)
-                rollButton.isEnabled = true
-            } catch {
-                print("Ошибка загрузки героя: \(error)")
-                heroName.text = "Ошибка загрузки"
-                heroImage.image = UIImage(systemName: "exclamationmark.circle")
-                rollButton.isEnabled = true
-            }
-        }
+        service.fetchHero()
     }
 
 
@@ -70,8 +62,6 @@ class ViewController: UIViewController {
            
         if let imageUrl = URL(string: model.images.imageUrl) {
             heroImage.kf.setImage(with: imageUrl)
-        } else {
-            heroImage.image = UIImage(systemName: "photo")
         }
         
         let appearance = model.appearance
@@ -108,3 +98,16 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController: HeroServiceDelegate {
+    func onHeroDidUpdate(model: HeroModel) {
+        rollButton.isEnabled = true
+        configureHero(with: model)
+        HeroStorageManager.saveHero(model)
+    }
+    
+    func onHeroFetchFailed(error: Error) {
+        rollButton.isEnabled = true
+        heroName.text = "Error"
+        print("Error: \(error)")
+    }
+}

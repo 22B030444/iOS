@@ -5,14 +5,14 @@
 //  Created by Zhasmin Suleimenova on 25.11.2025.
 //
 
-struct HeroModel: Decodable {
+struct HeroModel: Codable {
     let id: Int
     let name: String
     let images: HeroImageModel
     let powerstats: Powerstats
     let appearance: Appearance
     
-    struct HeroImageModel: Decodable {
+    struct HeroImageModel: Codable {
         let xs: String?
         let sm: String?
         let md: String?
@@ -23,7 +23,7 @@ struct HeroModel: Decodable {
         }
     }
     
-    struct Powerstats: Decodable {
+    struct Powerstats: Codable {
         let intelligence: Int
         let strength: Int
         let speed: Int
@@ -32,7 +32,7 @@ struct HeroModel: Decodable {
         let combat: Int
     }
     
-    struct Appearance: Decodable {
+    struct Appearance: Codable {
         let height: [String]
         let weight: [String]
         

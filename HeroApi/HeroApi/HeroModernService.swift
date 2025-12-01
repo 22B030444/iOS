@@ -6,30 +6,41 @@
 //
 
 import Foundation
+import Alamofire
 
-struct HeroModernService {
-    func fetchHero(by id: Int) async throws -> HeroModel {
-        let urlString = "https://akabab.github.io/superhero-api/api/id/\(id).json"
-        
-        guard let url = URL(string: urlString) else {
-            throw NetworkError.invalidURL
-        }
-        
-        let urlRequest = URLRequest(url: url)
-        let (data, response) = try await URLSession.shared.data(for: urlRequest)
-        
-        guard let httpResponse = response as? HTTPURLResponse,
-              httpResponse.statusCode == 200 else {
-            throw NetworkError.invalidResponse
-        }
-        
-        let decodedModel = try JSONDecoder().decode(HeroModel.self, from: data)
-        return decodedModel
-    }
+protocol HeroServiceDelegate: AnyObject {
+    func onHeroDidUpdate(model: HeroModel)
+    func onHeroFetchFailed(error: Error)
 }
 
-enum NetworkError: Error {
-    case invalidURL
-    case invalidResponse
-    case decodingError
+class HeroModernService {
+    
+    weak var delegate: HeroServiceDelegate?
+    
+    func fetchHero() {
+        let randomId = Int.random(in: 1...563)
+        
+        let urlString = "https://akabab.github.io/superhero-api/api/id/\(randomId).json"
+        
+        AF.request(urlString).responseDecodable(of: HeroModel.self) { [weak self] response in
+            switch response.result {
+            case .success(let model):
+                self?.delegate?.onHeroDidUpdate(model: model)
+            case .failure(let error):
+                self?.delegate?.onHeroFetchFailed(error: error)
+                print("Error fetching hero: \(error)")
+            }
+        }
+    }
+    
+    func fetchRandomHeroAsync() async throws -> HeroModel {
+        let randomId = Int.random(in: 1...563)
+        let urlString = "https://akabab.github.io/superhero-api/api/id/\(randomId).json"
+        
+        let model = try await AF.request(urlString)
+            .serializingDecodable(HeroModel.self)
+            .value
+        
+        return model
+    }
 }
